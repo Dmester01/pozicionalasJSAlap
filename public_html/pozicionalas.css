@@ -1,0 +1,49 @@
+@Charset "UTF-8";
+header{
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    padding-top:100px; 
+}
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom:0px;
+    
+}
+
+#kerdojel{
+    position: fixed;
+    bottom:0px; 
+    right: 0px;
+    z-index: 10;
+}
+
+nav{
+ position: absolute;
+ left: 10px;
+}
+
+form{
+    position: relative; /* megadjuk a viszonyitási alapot */
+}
+#zar{
+    position: absolute; /* a hozzá legközelebb álló relative elemhez igazodik*/
+    top: 12px;
+    right: 10px;
+}
+
+
+#szamol{
+    position: relative;  /*a háátéemel dom hejzetéhez képest tudom eltolni az elemet*/
+    /* right: -220px; */
+    left: -220px;
+    top: 17px;
+}
+
+
+
+
